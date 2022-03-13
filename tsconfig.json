@@ -1,0 +1,39 @@
+{
+  "include": [
+    "vite.config.ts",
+    "src/**/*.ts",
+    "src/**/*.vue"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "target": "ESNext",
+    "outDir": "out",
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "allowUnreachableCode": false,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "charset": "utf8",
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "LF",
+    "resolveJsonModule": true,
+    "importsNotUsedAsValues": "preserve"
+  }
+}
