@@ -16,6 +16,10 @@
       "DOM",
       "DOM.Iterable"
     ],
+    "types": [
+      "node",
+      "vite/client"
+    ],
     "module": "ESNext",
     "target": "ESNext",
     "outDir": "out",
