@@ -21,24 +21,21 @@ export default defineComponent({
 });
 </script>
 
-<style>
-#app {
-  color: var(--primary);
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-}
+<style lang="stylus">
+#app
+  color var(--primary)
+  max-width 1280px
+  margin 0 auto
+  padding 2rem
+  font-weight normal
 
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+header
+  line-height 1.5
+  max-height 100vh
 
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
+nav
+  width 100%
+  font-size 12px
+  text-align center
+  margin-top 2rem
 </style>
