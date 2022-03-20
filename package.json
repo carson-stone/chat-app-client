@@ -42,9 +42,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "npm:typecheck && vite build",
+    "build": "vite build",
     "preview": "vite preview --port 5050",
-    "typecheck": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.cjs,.mjs,.ts,cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
